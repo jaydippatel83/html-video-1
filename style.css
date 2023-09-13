@@ -1,9 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    color: #3c4758;
+    color: #3c4758; 
 }
 .flex-container{
     height: 100vh;
@@ -22,9 +25,14 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
-    height: 80px;
+    padding: 5px 20px;
+    height: 70px;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    box-shadow:1px 1px 1px 0 #3c4758;
+    background-color: white;
+    z-index: 99;
 }
 
 nav ul {
