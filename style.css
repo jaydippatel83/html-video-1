@@ -148,7 +148,7 @@ nav ul li a:hover {
     height: 100%;
     padding: 0.2rem 2rem; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 100px 0;
     margin-top: 30px;
@@ -232,9 +232,32 @@ nav ul li a:hover {
     border: 1px solid #c83531;
 }
 footer{
-    padding: 20px;
+    padding: 10px 24px;
     background-color: #eee;
     text-align: center;
     font-size: 1.2em;
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
+
+footer p{
+    justify-self: center; 
+    align-self: center;
+    text-align: right;
+    margin: 0;
+}
+footer ul {
+    display: flex;
+    margin: 0;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a img{
+    width: 30px;
+    height: 30px;
+    margin:10px;
+    cursor: pointer; 
+    justify-self: end;
+} 
